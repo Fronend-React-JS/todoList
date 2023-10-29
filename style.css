@@ -1,0 +1,28 @@
+.container{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 30px;
+    background-color: rgb(214, 245, 245);
+}
+
+input{
+    padding: 5px;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(75, 153, 226);
+    color: white;
+    border-radius: 5px;
+    border: transparent;
+}
+
+button:active{
+    transition: all 0.2s;
+    background-color: rgb(11, 61, 107);
+    
+}
+
